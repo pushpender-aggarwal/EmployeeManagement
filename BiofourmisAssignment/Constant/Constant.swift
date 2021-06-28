@@ -23,8 +23,3 @@ struct AppConstant {
     static let alertTitle = "Error"
     static let alertButtonTitle = "ok"
 }
-
-
-//enum ColorConstant {
-//    static let buttonBGColor =  UIColor(red: 254.0 / 255, green: 167.0 / 255, blue: 0.0 / 255, alpha: 1.0)
-//}

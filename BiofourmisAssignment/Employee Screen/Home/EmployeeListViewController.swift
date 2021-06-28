@@ -80,7 +80,7 @@ extension EmployeeListViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: .value1, reuseIdentifier: "Cell")
+        let cell = UITableViewCell(style: .subtitle, reuseIdentifier: "Cell")
         let employee = employeeListViewModel.employeeList?[indexPath.row]
         cell.textLabel?.text = (employee?.first_name ?? "") + (employee?.last_name ?? "")
         cell.detailTextLabel?.text = employee?.email
