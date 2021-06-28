@@ -24,7 +24,6 @@
 		C34631DF26880F5400B1664F /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34631DE26880F5400B1664F /* Employee.swift */; };
 		C34631E42688240C00B1664F /* EmployeeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34631E32688240C00B1664F /* EmployeeUseCase.swift */; };
 		C34631E926888C0800B1664F /* NetworkServiceConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34631E826888C0800B1664F /* NetworkServiceConstant.swift */; };
-		C34631EE2688978C00B1664F /* ImageLoader+Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34631ED2688978C00B1664F /* ImageLoader+Cache.swift */; };
 		C34631F426895F3F00B1664F /* ComponentExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34631F326895F3F00B1664F /* ComponentExtension.swift */; };
 		C34631FC2689639E00B1664F /* EmployeeListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34631FB2689639E00B1664F /* EmployeeListViewModelTest.swift */; };
 		C3463201268963B100B1664F /* EmployeeLoginViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3463200268963B100B1664F /* EmployeeLoginViewModelTest.swift */; };
@@ -72,7 +71,6 @@
 		C34631DE26880F5400B1664F /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 		C34631E32688240C00B1664F /* EmployeeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeUseCase.swift; sourceTree = "<group>"; };
 		C34631E826888C0800B1664F /* NetworkServiceConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceConstant.swift; sourceTree = "<group>"; };
-		C34631ED2688978C00B1664F /* ImageLoader+Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageLoader+Cache.swift"; sourceTree = "<group>"; };
 		C34631F326895F3F00B1664F /* ComponentExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentExtension.swift; sourceTree = "<group>"; };
 		C34631FB2689639E00B1664F /* EmployeeListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListViewModelTest.swift; sourceTree = "<group>"; };
 		C3463200268963B100B1664F /* EmployeeLoginViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeLoginViewModelTest.swift; sourceTree = "<group>"; };
@@ -173,7 +171,6 @@
 			isa = PBXGroup;
 			children = (
 				C34631CA2687581900B1664F /* LocalStorage.swift */,
-				C34631ED2688978C00B1664F /* ImageLoader+Cache.swift */,
 			);
 			path = "Data Managers";
 			sourceTree = "<group>";
@@ -386,7 +383,6 @@
 				C34631E42688240C00B1664F /* EmployeeUseCase.swift in Sources */,
 				C34631DF26880F5400B1664F /* Employee.swift in Sources */,
 				C34631282686061B00B1664F /* AppDelegate.swift in Sources */,
-				C34631EE2688978C00B1664F /* ImageLoader+Cache.swift in Sources */,
 				C34631D126875F8E00B1664F /* NetworkServiceManager.swift in Sources */,
 				C34631B526873B9A00B1664F /* EmployeeListViewModel.swift in Sources */,
 				C34631E926888C0800B1664F /* NetworkServiceConstant.swift in Sources */,

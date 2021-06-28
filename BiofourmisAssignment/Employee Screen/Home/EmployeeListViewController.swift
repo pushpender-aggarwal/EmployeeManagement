@@ -12,7 +12,6 @@ class EmployeeListViewController: UIViewController {
     @IBOutlet weak var employeeTableView: UITableView!
     @IBOutlet weak var activity: UIActivityIndicatorView!
     private var employeeListViewModel =  EmployeeListViewModel(usecase: EmployeeUseCase(), storage: UserDefaultsLocalStorage())
-    let imageLoader = ImageLoader()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,11 +41,11 @@ class EmployeeListViewController: UIViewController {
         navigateToLogin()
     }
     
+    //TODO: Navigation Should also be part of Viewmodel. Need to a Protocol that will take care of screen movement
     func navigateToLogin() {
         let storyboard = UIStoryboard(name: StoryBoardName.main, bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: ViewControllerIdentifier.login)
         navigationController?.setViewControllers([vc], animated: true)
-
     }
     
     func showLogoutAlert() {

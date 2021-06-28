@@ -15,7 +15,9 @@ class EmployeeListViewModelTest: XCTestCase {
     
     override func setUp() {
         super.setUp()
-        useCase = MockService() // Mock service
+        // Mock service will return mocked response
+        useCase = MockService()
+        
         storage = UserDefaultsLocalStorage() //Here we can also use any mock class
         sut = EmployeeListViewModel(usecase: useCase, storage: storage)
     }
